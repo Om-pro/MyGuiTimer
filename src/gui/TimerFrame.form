@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.TimerFrame">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="cc3a9" class="javax.swing.JButton" binding="startPauseButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="80" height="35"/>
+          <minimumSize width="80" height="35"/>
+          <preferredSize width="80" height="35"/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="87c12" class="javax.swing.JButton" binding="resetButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="80" height="35"/>
+          <minimumSize width="80" height="35"/>
+          <preferredSize width="80" height="35"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="17dcb" class="javax.swing.JLabel" binding="timerText">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="41"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="36"/>
+          <horizontalAlignment value="11"/>
+          <maximumSize width="300" height="45"/>
+          <minimumSize width="300" height="45"/>
+          <preferredSize width="300" height="45"/>
+          <text value="00:00:00.000"/>
+        </properties>
+      </component>
+      <component id="9d402" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="25" height="16"/>
+          <minimumSize width="25" height="16"/>
+          <preferredSize width="25" height="16"/>
+          <text value="     "/>
+        </properties>
+      </component>
+      <component id="f70ab" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="25" height="16"/>
+          <minimumSize width="25" height="16"/>
+          <preferredSize width="25" height="16"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
